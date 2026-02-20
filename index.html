@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elepta Global Formation</title>
+
+<!-- Inter Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#047857"
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif']
+      }
+    }
+  }
+}
+</script>
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-primary">Elepta Global Formation</h1>
+    <div class="space-x-6 hidden md:block">
+      <a href="uk.html" class="hover:text-primary">UK</a>
+      <a href="usa.html" class="hover:text-primary">USA</a>
+      <a href="india.html" class="hover:text-primary">India</a>
+      <a href="saudi.html" class="hover:text-primary">Saudi Arabia</a>
+      <a href="qatar.html" class="hover:text-primary">Qatar</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-primary text-white pt-32 pb-24 text-center">
+  <h2 class="text-5xl font-bold fade-in">
+    Global Company Formation Made Simple
+  </h2>
+  <p class="mt-6 text-xl">
+    UK, USA, India, Saudi Arabia & Qatar Company Registration Experts
+  </p>
+  <a href="#inquiry"
+     class="mt-8 inline-block bg-white text-primary px-8 py-4 rounded-lg font-semibold shadow-lg hover:scale-105 transition">
+     Start Your Company Today
+  </a>
+</section>
+
+<!-- COUNTRIES -->
+<section class="py-20 max-w-7xl mx-auto px-6">
+<h3 class="text-3xl font-bold text-center mb-12">Our Countries</h3>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<a href="uk.html" class="card">
+<h4>🇬🇧 United Kingdom</h4>
+<p>Standard: 9–20 days<br>Fast Track: 3–4 days</p>
+</a>
+
+<a href="usa.html" class="card">
+<h4>🇺🇸 United States</h4>
+<p>LLC & Corporation Formation</p>
+</a>
+
+<a href="india.html" class="card">
+<h4>🇮🇳 India</h4>
+<p>Private Limited & LLP</p>
+</a>
+
+<a href="saudi.html" class="card">
+<h4>🇸🇦 Saudi Arabia</h4>
+<p>Commercial Registration Services</p>
+</a>
+
+<a href="qatar.html" class="card">
+<h4>🇶🇦 Qatar</h4>
+<p>Business Setup & Licensing</p>
+</a>
+
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="bg-white py-20">
+<div class="max-w-7xl mx-auto px-6">
+<h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+
+<div class="grid md:grid-cols-3 gap-8">
+<div class="service-card">Company Incorporation</div>
+<div class="service-card">Bank Account Assistance</div>
+<div class="service-card">VAT Registration</div>
+<div class="service-card">Trade License</div>
+<div class="service-card">Corporate Compliance</div>
+<div class="service-card">UK Fast Track Formation</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="py-20 max-w-4xl mx-auto px-6">
+<h3 class="text-3xl font-bold text-center mb-12">FAQ</h3>
+
+<div class="faq-item">
+<button class="faq-question">How long does UK formation take?</button>
+<div class="faq-answer">
+Standard: 9–20 days. Fast Track: 3–4 days.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Do you assist with bank accounts?</button>
+<div class="faq-answer">
+Yes, we provide assistance for opening corporate bank accounts.
+</div>
+</div>
+
+</section>
+
+<!-- INQUIRY FORM -->
+<section id="inquiry" class="bg-primary text-white py-20">
+<div class="max-w-2xl mx-auto px-6">
+<h3 class="text-3xl font-bold text-center mb-8">
+Start Your Global Business Today
+</h3>
+
+<form action="https://formsubmit.co/youremail@gmail.com" method="POST" class="space-y-6">
+
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Elepta Inquiry">
+
+<input type="text" name="Name" placeholder="Full Name" required class="input">
+<input type="email" name="Email" placeholder="Email Address" required class="input">
+<input type="text" name="Phone" placeholder="Phone Number" required class="input">
+
+<select name="Country" required class="input text-gray-800">
+<option value="">Select Country</option>
+<option>United Kingdom</option>
+<option>United States</option>
+<option>India</option>
+<option>Saudi Arabia</option>
+<option>Qatar</option>
+</select>
+
+<textarea name="Message" placeholder="Tell us about your business" rows="4" class="input"></textarea>
+
+<button type="submit"
+class="w-full bg-white text-primary font-semibold py-4 rounded-lg hover:scale-105 transition">
+Submit Inquiry
+</button>
+
+</form>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-8 text-center">
+© 2026 Elepta Global Formation. All rights reserved.
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/447000000000"
+   class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg text-2xl hover:scale-110 transition">
+💬
+</a>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
